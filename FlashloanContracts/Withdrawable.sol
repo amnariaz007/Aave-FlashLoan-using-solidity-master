@@ -36,3 +36,4 @@ contract Withdrawable is Ownable {
         emit LogWithdraw(msg.sender, _assetAddress, assetBalance);
     }
 }
+//withdraw
